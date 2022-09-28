@@ -343,7 +343,7 @@ class CardCreator {
     characterInfoUrl.searchParams.set('extended', '1');
     characterInfoUrl.searchParams.set('data', 'FC,MIMO');
     characterInfoUrl.searchParams.set('columns', neededFields.join(','));
-    if (typeof this.xivApiKey === 'string' && this.xivApiKey !== '') url.searchParams.set('private_key', this.xivApiKey);
+    if (typeof this.xivApiKey === 'string' && this.xivApiKey !== '') characterInfoUrl.searchParams.set('private_key', this.xivApiKey);
 
     const dataPromise = fetch(characterInfoUrl)
       // Retry once if the request fails
