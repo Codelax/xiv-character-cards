@@ -287,9 +287,9 @@ class CardCreator {
       }
     }
 
-    // Average item level computation is always for 13 items
+    // Average item level computation is always for 12 items
     // Job stones are ignored
-    return this.pad(Math.floor(itemLevelSum / 13), 4);
+    return this.pad(Math.floor(itemLevelSum / 12), 4);
   }
 
   pad(number, size) {
