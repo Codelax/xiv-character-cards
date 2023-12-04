@@ -18,10 +18,10 @@
   "dependencies": {
     "cache-manager": "^3.4.4",
     "cache-manager-fs-binary": "^1.0.4",
-    "canvas": "^2.8.0",
+    "canvas": "^2.11.2",
     "express": "^4.17.1",
     "express-rate-limit": "^5.5.0",
-    "node-fetch": "^2.6.5"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
